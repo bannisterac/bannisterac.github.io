@@ -72,5 +72,4 @@
 			<p>At My Cosmetics, we believe that everyone deserves to feel confident and beautiful in their own skin. That's why we offer a wide range of high-quality cosmetics that cater to every skin type and beauty need. Our products are made with only the finest ingredients, and we never test on animals. We are committed to providing our customers with the best possible experience, from the moment they place an order to the moment their products arrive at their doorstep.</p>
 		</div>
 	</section>
-	<footer>
-		
+	<section class="reviews
