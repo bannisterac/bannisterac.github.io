@@ -3,66 +3,74 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>My Creative Test Page</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+	<title>My Cosmetics Website</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 	<header>
-		<nav>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Services</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
-		</nav>
-		<div class="hero-image">
-			<h1>Welcome to My Creative Test Page</h1>
-			<p>Explore and enjoy!</p>
-			<a href="#" class="btn">Get Started</a>
+		<div class="container">
+			<div class="logo">
+				<img src="logo.png" alt="My Cosmetics">
+			</div>
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Shop</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
 		</div>
 	</header>
-	<section class="services">
+	<section class="hero">
 		<div class="container">
-			<h2>Our Services</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus commodo nulla eget feugiat lacinia. Curabitur euismod, sapien ut egestas dictum, ipsum elit ultricies turpis, a luctus metus magna in elit. </p>
-			<div class="services-grid">
-				<div class="service">
-					<i class="fas fa-code"></i>
-					<h3>Web Development</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus commodo nulla eget feugiat lacinia.</p>
+			<h1>Welcome to My Cosmetics!</h1>
+			<p>Discover the perfect products for your skin and beauty needs.</p>
+			<a href="#" class="btn">Shop Now</a>
+		</div>
+	</section>
+	<section class="products">
+		<div class="container">
+			<h2>Featured Products</h2>
+			<div class="product-grid">
+				<div class="product">
+					<img src="product1.jpg" alt="Product 1">
+					<h3>Product 1</h3>
+					<p>$29.99</p>
+					<a href="#" class="btn">Add to Cart</a>
 				</div>
-				<div class="service">
-					<i class="fas fa-mobile-alt"></i>
-					<h3>Mobile Development</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus commodo nulla eget feugiat lacinia.</p>
+				<div class="product">
+					<img src="product2.jpg" alt="Product 2">
+					<h3>Product 2</h3>
+					<p>$39.99</p>
+					<a href="#" class="btn">Add to Cart</a>
 				</div>
-				<div class="service">
-					<i class="fas fa-laptop"></i>
-					<h3>Software Development</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus commodo nulla eget feugiat lacinia.</p>
+				<div class="product">
+					<img src="product3.jpg" alt="Product 3">
+					<h3>Product 3</h3>
+					<p>$24.99</p>
+					<a href="#" class="btn">Add to Cart</a>
 				</div>
 			</div>
 		</div>
 	</section>
-	<section class="contact">
+	<section class="newsletter">
 		<div class="container">
-			<h2>Contact Us</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus commodo nulla eget feugiat lacinia.</p>
+			<h2>Sign Up for Our Newsletter</h2>
+			<p>Stay up to date with our latest products and promotions.</p>
 			<form action="#" method="POST">
-				<label for="name">Name</label>
-				<input type="text" id="name" name="name" required>
 				<label for="email">Email</label>
-				<input type="email" id="email" name="email" required>
-				<label for="message">Message</label>
-				<textarea id="message" name="message" required></textarea>
-				<button type="submit" class="btn">Submit</button>
+				<input type="email" id="email" name="email" placeholder="Enter your email" required>
+				<button type="submit" class="btn">Subscribe</button>
 			</form>
 		</div>
 	</section>
+	<section class="about">
+		<div class="container">
+			<h2>About Us</h2>
+			<p>At My Cosmetics, we believe that everyone deserves to feel confident and beautiful in their own skin. That's why we offer a wide range of high-quality cosmetics that cater to every skin type and beauty need. Our products are made with only the finest ingredients, and we never test on animals. We are committed to providing our customers with the best possible experience, from the moment they place an order to the moment their products arrive at their doorstep.</p>
+		</div>
+	</section>
 	<footer>
-		<p>© 2023 My Creative Test Page. All Rights Reserved.</p>
-	</footer>
-</body>
-</html>
+		
